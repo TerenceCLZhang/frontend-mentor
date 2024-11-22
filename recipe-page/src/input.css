@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  li {
+    @apply pl-3;
+  }
+  ul li span,
+  ol li span {
+    @apply inline-block align-middle;
+  }
+  ul,
+  ol {
+    @apply list-outside flex flex-col gap-3 pl-7;
+  }
+}
+
+.section-title {
+  @apply font-serif text-customBrown-800 text-3xl;
+}
+
+.section-divs {
+  @apply flex flex-col gap-4;
+}
+
+.nutrition-label {
+  @apply px-8 py-3;
+}
+
+.nutrition-vals {
+  @apply text-customRose-800 font-bold px-2 py-3;
+}

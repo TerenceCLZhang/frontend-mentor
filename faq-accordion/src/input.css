@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  h2 {
+    @apply font-semibold pr-8;
+  }
+}
+
+.question {
+  @apply flex justify-between cursor-pointer text-darkPurple hover:text-lightPurple transition ease-in-out delay-75;
+}
+
+.answer {
+  @apply text-grayishPurple text-sm;
+}
+
+.qa-container {
+  @apply flex flex-col gap-4;
+}
