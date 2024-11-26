@@ -581,6 +581,10 @@ video {
   width: 1.75rem;
 }
 
+.max-w-\[549\.92px\]{
+  max-width: 549.92px;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -719,10 +723,6 @@ h2{
 @media (min-width: 768px){
   .md\:w-8{
     width: 2rem;
-  }
-
-  .md\:max-w-\[549\.92px\]{
-    max-width: 549.92px;
   }
 
   .md\:gap-10{
